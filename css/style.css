@@ -1,0 +1,155 @@
+*{
+}
+
+body{
+  margin:0; 
+  padding:0;
+}
+
+@font-face{
+  font-family: 'rampung';
+  src:url('rampung.ttf') format('ttf');
+}
+
+h2{
+  font-family:'rampung';
+  font-size:35px;
+  color:grey;
+  margin-top:20px;
+}
+
+#profile{
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.fa{
+  display:fixed;
+  color:lightgrey;
+  /*margin-left: -30px;*/
+  font-size: 30px;
+  padding: 3px;
+}
+
+.fa:hover {
+  color:#ffebe5;
+}
+
+.menu{
+  text-align:center;
+  float:left;
+  width:20%;
+  height:100%;
+  background-color:white;
+}
+
+.menu p{
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:grey;
+}
+
+#wrapper{
+  text-align:left;
+  float:right;
+  width:80%;
+  min-height:800px;
+  background-color:#ffebe5;
+  overflow:scroll;
+  margin:0px auto;  
+}
+
+#main{
+  margin-left: 45px;
+}
+
+#overlay{
+  display:none;
+  width:100%;
+  height:100%;
+  position:fixed;
+  background-color:black;
+  opacity:0.7;
+}
+
+#overlay:hover{
+  cursor:pointer;
+}
+
+#frame{
+  display:none;
+  position:fixed;
+  width:900px;
+  height:450px;
+  background-color:white;
+  margin-left:-450px;
+  margin-top: 100px;
+  left:50%;
+  overflow:scroll;
+}
+
+#frame img{
+  border: grey solid 3px;
+  width:425px;
+  height:425px;
+  margin-left:10px;
+  margin-top:10px;
+}
+
+#details {
+  padding-top: 5px;
+  font-size:20px;
+  color:darkblue;
+  float:right;
+  margin-right:20px;
+  width:400px;
+}
+
+#details a{
+  text-decoration:none;
+  font-weight:bold;
+  color:darkblue;
+}
+
+#portfolio{
+  padding-left:1px;
+}
+
+#portfolio ul{
+  /*margin-left: 20px;*/
+  list-style-type:none;
+}
+
+#portfolio li{
+  display:inline-block;
+  width:230px;
+  height:230px;
+  overflow:hidden;
+  padding:5px;
+}
+
+#portfolio li img{
+  border:white solid 5px;
+  width:200px;
+  height:200px;
+}
+
+#portfolio li img:hover{
+  cursor:pointer;
+}
+
+#social-media{
+  padding-top: 30px;
+  /*text-align: center;*/
+  margin-left: -40px;
+}
+#social-media li{
+  display: inline-block;
+  list-style-type: none;
+  width: 55px;
+  padding-bottom: 5px;
+}
